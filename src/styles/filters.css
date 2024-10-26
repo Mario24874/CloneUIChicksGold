@@ -1,0 +1,128 @@
+/* Filters Styles */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.filters-left, .filters-right {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+}
+
+/* Game Select Styles */
+.game-select-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.game-select-icon {
+  position: absolute;
+  left: 12px;
+  width: 20px; 
+  height: 25px; 
+  padding: 1px;
+}
+
+.game-select {
+  background-color: #2d3748; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 16px 8px 40px; 
+  border: none;
+  border-radius: 4px;
+}
+
+/* Search Input Styles */
+.search-input-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #d5d7dd;
+}
+
+.search-input {
+  background-color: #2d3748; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 16px 8px 40px;
+  border: none;
+  border-radius: 4px;
+  width: 256px;
+}
+
+/* Filter Select Styles */
+.filter-select-container {
+  position: relative;
+  display: grid;  
+  align-items: first baseline;
+}
+
+.filter-select {
+  background-color: #2d3748; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 15px 20px 10px 50px; 
+  border: none;
+  border-radius: 4px;
+  width: 100%; 
+}
+
+.filter-select-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 25px; 
+  height: 25px; 
+}
+
+.filter-text {
+  position: absolute;
+  top: 5px;
+  right: 50px;  
+  font-size: 10px; 
+  color: #d8d0d0; 
+}
+
+/* Item Select Styles */
+.item-select-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item-select {
+  background-color: #2d3748; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 15px 20px 10px 50px; 
+  border: none;
+  border-radius: 4px;
+  width: 100%; 
+}
+
+.item-select-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 25px; 
+  height: 25px; 
+}
+
+.item-text {
+  position: absolute;
+  top: 5px;
+  right: 60px;  
+  font-size: 10px; 
+  color: #d8d0d0; 
+}
