@@ -1,98 +1,93 @@
 /* Footer Styles */
 .footer {
-  display: block;
-  width: 1450px;
+  display: flexbox;
+  width: 1420px;
   background-color: #1a202c;
-  padding: 48px 0;
+  padding: 0;
   margin-top: 48px;
 }
-  
+
 .footer-content {
   display: grid;
+  position: relative;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 1px; 
+  padding: 24px 150px; 
 }
-  
+
 .footer-section {
-  display: flex;
-  flex-direction: column;
+  display: flexbox;    
+  padding: 25px;  
 }
 
 .chicks-image {
   width: 200px; 
   height: auto;
   margin-left: 0px; 
-  margin-right: 10px;  
+  margin-right: 5px;  
 }
-  
+
 .footer-title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 16px;
 }
-  
+
 .footer-text {
   color: #a0aec0;
   font-size: 14px;
 }
-  
+
 .footer-subtitle {
-  font-size: 16px;
+  font-size: 16px;  
   font-weight: bold;
+  margin-left: 40px;
   margin-bottom: 16px;
 }
-  
+
 .footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style: none;   
+  margin-right: 50px;
 }
-  
+
 .footer-link {
-  color: #a0aec0;
+  color: #a0aec0;  
   text-decoration: none;
   transition: color 0.2s;
 }
-  
+
 .footer-link:hover {
   color: #ffffff;
 }
-  
+
 .footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 48px;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding-top: 32px;
+  display: grid;  
+  margin-top: 30px;  
+  margin-right: 15px;
+  padding-top: 3px;
   border-top: 1px solid #2d3748;
 }
-  
+
 .social-links {
-  margin-left: 40px;
+  margin-left: 150px;
   display: flex;
-  gap: 16px;
+  gap: 15px;
 }
-  
-.social-link {
-  color: #a0aec0;
-  transition: color 0.2s;
-}
-  
+
 .social-link:hover {
   color: #ffffff;
 }
-  
+
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
-  
+
 .footer-copyrigth {
   margin-top: 50px;
   color: #a0aec0;
   font-size: 14px;
+  text-align: center;
 }
 
 .copyright-text {
@@ -100,4 +95,55 @@
   text-align: center;
   color: #a0aec0;
   font-size: 14px;
+}
+
+/* New Styles for Payment Methods */
+.payment-methods {
+  display: flex;  
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: #141313;
+  padding: 40px 150px;
+  align-items: center;  
+}
+
+.payment-icon {
+  width: 60px;
+  height: auto;
+  margin-right: 16px;
+}
+
+.more-text {
+  color: #a0aec0;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* New Styles for Stars Trust Icon */
+.stars-trust-icon {
+  width: 100px; 
+  height: auto;
+  align-self: flex-end;
+  margin-top: 16px;
+}
+
+/* New Styles for Stars Trust Icon */
+.stars-trust-icon {
+  width: 100px; 
+  height: auto;
+  align-self: flex-end;
+  margin-top: 16px;
+}
+
+/* New Styles for Trustpilot Section */
+.trustpilot-section {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.trustpilot-text {
+  color: #a0aec0;
+  font-size: 14px;
+  margin-left: 8px;
 }
